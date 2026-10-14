@@ -4,7 +4,7 @@ let id = params.get("id");
 console.log("Full URL:", window.location.href);
 console.log("Product ID:", id);
 
-fetch(`http://localhost:3000/shoes/${id}`)
+fetch(`https://fashion-store-api-44v2.onrender.com/shoes/${id}`)
 .then((response) => response.json())
 .then((product) =>{
     let container = document.getElementById("container");

@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/shoes")
+fetch("https://fashion-store-api-44v2.onrender.com/shoes")
 .then((response) => response.json())
 .then((products) => {
      let container = document.getElementById("container");
